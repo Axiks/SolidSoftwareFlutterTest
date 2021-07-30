@@ -4,13 +4,12 @@ A Solid Software Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a test task to the Solid Software.
+Implemented basic functions:
+* Display the text "Hey there" in the middle of screen
+* Change the background color to a random color
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Other feature:
+* Changing the background color by swinging the smartphone to the side (X axis)
+* Inversion of the inscription on the middle screen relative to the background (to counteract color merging)
+* Changed font and caption style in the middle screen
