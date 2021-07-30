@@ -90,6 +90,10 @@ class _MyHomePageState extends State<MyHomePage> {
 class ColorGenerator{
   Color _firstColor;
   // RGB have 24 bits color then it is 16777216 color capabilities
+  ColorGenerator(){
+    _firstColor = Colors.white;
+  }
+
   Color generate(){
     var rng = new Random();
     int red = rng.nextInt(256);
